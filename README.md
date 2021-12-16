@@ -24,10 +24,10 @@ The usage and information of each data file can be found in each notebook's envi
 |       |__ ULAN_explicit.zip
 |       |__ TGN_explicit.zip
 |
-|__ intermediate  // graphs after importing by kgtk
+|__ intermediate files  // graphs after importing by kgtk
 |   |
 |   |__ dbpedia
-|   |   |__ wikidata_infobox.tsv
+|   |   |__ wikidata_infobox.zip
 |   |
 |   |__ getty
 |       |__ ULAN
@@ -40,13 +40,13 @@ The usage and information of each data file can be found in each notebook's envi
 |
 |__ output  // output results, mainly the validated novel and disagreement
     |
-    |__ dbpedia
-    |   |__ novel.zip
-    |   |__ disagree.zip
+    |__ disagree
+    |   |__ dbpedia.zip
+    |   |__ getty.zip
     |
-    |__ getty
-        |__ novel.zip
-        |__ disagree.zip
+    |__ novel
+        |__ dbpedia.zip
+        |__ getty.zip
 ```
 There are two ways to use the above data and run our examples:
 1. Run from scratch by using data in `./input` folder and run our notebooks in `./import`,
