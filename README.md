@@ -62,7 +62,7 @@ The users can match the file path according to the specific file names.
 We use [Knowledge Graph Toolkit](https://github.com/usc-isi-i2/kgtk) dev branch to implement our procedures.
 
 ## Notebooks
-The following file tree shows the structure of our code, the comment notes the simple objetive of each notebook:
+The following file tree shows the structure of our code, which includes import notebooks and enrichment notebooks, for our two external graphs: DBpedia and Getty.
 ```
 .
 |__ import  // import external graphs
@@ -72,18 +72,18 @@ The following file tree shows the structure of our code, the comment notes the s
 |__ examples  // enrichment notebooks
     |
     |__ dbpedia 
-    |   |__ batch_query_procedure.ipynb  // batch enrichment
-    |   |__ founding_year_of_university.ipynb  // on-demand enrichment for P571
-    |   |__ industry_of_company.ipynb  // on-demand enrichment for P452
-    |   |__ movies_with_cost.ipynb  // on-demand enrichment for P2130
-    |   |__ spouse_of_politicians.ipynb  // on-demand enrichment for P26
+    |   |__ batch_query_procedure.ipynb  // enrichment for all properties with value-type constraint
+    |   |__ founding_year_of_university.ipynb  
+    |   |__ industry_of_company.ipynb  
+    |   |__ movies_with_cost.ipynb  
+    |   |__ spouse_of_politicians.ipynb  
     |
     |__ getty
-        |__ getty_birthdate_query.ipynb  // on-demand enrichment for P569
-        |__ getty_birthplace_query.ipynb  // on-demand enrichment for P19
-        |__ getty_deathdate_query.ipynb  // on-demand enrichment for P570
-        |__ getty_deathplace_query.ipynb  // on-demand enrichment for P20
-        |__ getty_gender_query.ipynb  // on-demand enrichment for P21
-        |__ getty_nationality_query.ipynb  // on-demand enrichment for P27
-        |__ getty_query_procedure.ipynb  // example of enrichment for a subgraph of Wikidata (not included in our paper)
+        |__ getty_birthdate_query.ipynb  
+        |__ getty_birthplace_query.ipynb  // enrichment for P19
+        |__ getty_deathdate_query.ipynb  // enrichment for P570
+        |__ getty_deathplace_query.ipynb  // enrichment for P20
+        |__ getty_gender_query.ipynb  // enrichment for P21
+        |__ getty_nationality_query.ipynb  // enrichment for P27
+        |__ getty_query_procedure.ipynb  // example of enrichment for a subset of Wikidata (not included in our paper)
 ```
