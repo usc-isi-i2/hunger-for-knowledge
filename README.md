@@ -72,6 +72,15 @@ There are two ways to use the above data and run our examples:
 In each notebook in examples, there are cells after the import cell that one can adjust the path to the files. 
 The users can match the file path according to the specific file names.
 
+## Findings
+Here is the correspondence between our findings and the files:
+- F1: `output/dbpedia/*.statistics.json`, `output/getty*.statistics.json`, all novel results (enriched statements) are in `novel.zip`;
+- F2: `output/dbpedia/annotation.tsv` and `output/getty/annotation.tsv`;
+- F3: `output/dbpedia/property_mapping.json` and `property_mapping_ground_truth.json`;
+- F4: the same files for F1 and F2;
+- F5: `output/agree`; 
+- F6: `output/literals`.
+
 ## Requirements
 We use [Knowledge Graph Toolkit](https://github.com/usc-isi-i2/kgtk) dev branch to implement our procedures.
 
