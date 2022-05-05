@@ -2,7 +2,7 @@
 This is the official repository for paper "Enriching Wikidata with Linked Open Data".
 
 ## Data
-All the data we used can be downloaded from this [google drive folder](https://drive.google.com/drive/folders/13UjvUKcc7YUiYSQjxba4R8UmTTGVWNft?usp=sharing).
+All the data we used and **findings** we got can be downloaded from this [google drive folder](https://drive.google.com/drive/folders/13UjvUKcc7YUiYSQjxba4R8UmTTGVWNft?usp=sharing).
 The usage and information of each data file can be found in each notebook's environment path step.
 ```
 .
